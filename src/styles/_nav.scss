@@ -34,13 +34,6 @@ nav {
     nav {
         button {
             z-index: 10;
-            &:hover {
-                background: transparent;
-                color: rgb(65, 65, 65);
-                svg {
-                    color: rgb(65, 65, 65);
-                }
-            }
         }
     }
 }
