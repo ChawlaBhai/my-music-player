@@ -1,0 +1,45 @@
+* {
+    svg {
+        color: white;
+    }
+}
+body {
+    background: white;
+}
+
+h1,
+h2 {
+    color: rgb(54, 54, 54);
+}
+
+h3,
+h4 {
+    color: rgb(100, 100, 100);
+}
+
+.animate-track {
+    background: rgb(204, 204, 204);
+}
+
+nav {
+    h1,
+    svg {
+        color: rgb(65, 65, 65);
+    }
+    button {
+        color: rgb(65, 65, 65);
+        border: 2px solid rgb(65, 65, 65);
+        &:hover {
+            background: rgb(65, 65, 65);
+            color: white;
+            svg {
+                color: white;
+            }
+        }
+    }
+}
+
+.library {
+    background: white;
+    box-shadow: 2px 2px 50px rgb(204, 204, 204);
+}

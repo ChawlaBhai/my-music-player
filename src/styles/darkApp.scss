@@ -1,0 +1,46 @@
+* {
+    svg {
+        color: white;
+    }
+}
+
+body {
+    background-color: rgb(9, 9, 9);
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+h3,
+h4 {
+    color: white;
+}
+
+.animate-track {
+    background: rgb(51, 51, 51);
+}
+
+nav {
+    button {
+        color: white;
+        border: 2px solid white;
+        &:hover {
+            background: white;
+            color: rgb(9, 9, 9);
+            svg {
+                color: rgb(9, 9, 9);
+            }
+        }
+    }
+}
+
+.library {
+    background: rgb(9, 9, 9);
+    box-shadow: 5px 5px 130px rgb(0, 0, 0);
+}
+
+.time-container {
+    color: #fff;
+}
