@@ -43,7 +43,7 @@ function themeChange(primary, secondary, boxShadow, track) {
 }
 
 function App() {
-    const [theme, setTheme] = useState("light");
+    const [theme, setTheme] = useState("dark");
     useEffect(() => {
         if (theme === "dark") {
             themeChange(
